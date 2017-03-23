@@ -317,6 +317,5 @@ private async void SelectedItemCommandExecute(object obj)
 
 
 ## References ##
-* [Xamarin Media Manager](https://githu
-* b.com/martijn00/XamarinMediaManager)
+* [Xamarin Media Manager](https://github.com/martijn00/XamarinMediaManager)
 * [Rox Xamarin Video](https://www.nuget.org/packages/Rox.Xamarin.Video/)
