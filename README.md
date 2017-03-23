@@ -1,3 +1,4 @@
+@@ -1,130 +0,0 @@
 
 | layout |  title  | author | author-link |  date  |  categories  |  excerpt  |  language  |  verticals  |
 |--------|:-------:|:------:|:-----------:|:------:|:-------------:|:--------:|:----------:|:-----------:|
@@ -224,7 +225,7 @@ public async Task<Ienumerable<HomeDashboard>> GetAllHomeDashboardsAsync(Cancella
 
 ``` 
 >The resulting window looks like this
-![alt tag](http://aminespinoza.com/ascend/MorbidoAscend/Principal.jpg)
+![alt tag](http://aminespinoza.com/ascend/MorbidoAscend/Dashboard.jpg)
 
 >To get the podcast feed, it's a similar method, but here we need to get the podcasts by category.
 
@@ -248,7 +249,7 @@ public async Task<Ienumerable<HomeDashboard>> GetAllHomeDashboardsAsync(Cancella
 ``` 
 >The resulting window looks like this
 
-![alt tag](http://aminespinoza.com/ascend/MorbidoAscend/PodcastFeed.jpg)
+![alt tag](http://aminespinoza.com/ascend/MorbidoAscend/Podcast.jpg)
 
 >To reproduce a selected podcast, we need to get the podcast url from the web service. In order to reproduce the content, we need to replace the mpd format to m3u8, then we put the player in stop mode (in case it's playing something before). In here we found out that the AudioPlayer doesn't allow you to play the same file more than once, so we had to put an alter url to play in the moddle, so finally we can play the audio from the service.
 
@@ -298,6 +299,7 @@ private async void SelectedItemCommandExecute(object obj)
 }
 
 ```
+![alt tag](http://aminespinoza.com/ascend/MorbidoAscend/OpenPodcast.jpg)
 
 ## Architecture Diagram ##
 
