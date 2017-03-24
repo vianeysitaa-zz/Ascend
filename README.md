@@ -318,3 +318,4 @@ private async void SelectedItemCommandExecute(object obj)
 ## References ##
 * [Xamarin Media Manager](https://github.com/martijn00/XamarinMediaManager)
 * [Rox Xamarin Video](https://www.nuget.org/packages/Rox.Xamarin.Video/)
+* [Xamarin working with tables and cells](https://developer.xamarin.com/guides/ios/user_interface/tables/)
