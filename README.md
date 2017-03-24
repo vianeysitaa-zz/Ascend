@@ -94,7 +94,7 @@ await implementation.AudioPlayer.Play(file);
 
 >Another challenge that we found, was presenting the news, because we needed to show the image within the news text title, like shown in the image below.
 
-<img src="http://aminespinoza.com/ascend/MorbidoAscend/News.jpg" height="250" width="100">
+<img src="http://aminespinoza.com/ascend/MorbidoAscend/News.jpg" height="300" width="250">
 
 >Currently, Xamarin built in row table look is an image next to a text or just plain text, so we needed to create our own. In order to make this implementation, we needed to add a Custome Layout and a Custome View
 
@@ -223,7 +223,7 @@ public async Task<Ienumerable<HomeDashboard>> GetAllHomeDashboardsAsync(Cancella
 
 ``` 
 >The resulting window looks like this
-<img src="http://aminespinoza.com/ascend/MorbidoAscend/Dashboard.jpg" height="250" width="100">
+<img src="http://aminespinoza.com/ascend/MorbidoAscend/Dashboard.jpg" height="300" width="250">
 
 >To get the podcast feed, it's a similar method, but here we need to get the podcasts by category.
 
@@ -297,10 +297,10 @@ private async void SelectedItemCommandExecute(object obj)
 }
 
 ```
-<img src="http://aminespinoza.com/ascend/MorbidoAscend/OpenPodcast.jpg" height="250" width="100">
+<img src="http://aminespinoza.com/ascend/MorbidoAscend/OpenPodcast.jpg" height="300" width="250">
 
 ## Architecture Diagram ##
-<img src="http://aminespinoza.com/ascend/MorbidoAscend/Architecture diagram.jpg" height="250" width="100">
+<img src="http://aminespinoza.com/ascend/MorbidoAscend/Architecture diagram.jpg">
 
 ## General Lessons ##
 * It was really difficult to find information regarding to streaming integration with Xamarin. We expect this documentation can help other developers to solve this quickly.
